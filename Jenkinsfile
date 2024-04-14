@@ -1,7 +1,4 @@
-node {
-    
-	
-
+node {//to check the merge functionality
     env.AWS_ECR_LOGIN=true
     def newApp
     def registry = 'gustavoapolinario/microservices-node-todo-frontend'
