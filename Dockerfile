@@ -24,7 +24,7 @@ COPY --from=0 /app/src/public/static/bower_components/ /app/src/public/static/bo
 
 COPY package.json /app/
 RUN npm install
-# --only=production this is a change to check the merge command functionality
+# --only=production this is a change to check the merge command functionality ......
 
 COPY src /app/src
 
